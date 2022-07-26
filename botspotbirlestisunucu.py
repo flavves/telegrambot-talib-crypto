@@ -51,7 +51,7 @@ import os
 
 def spotthread():
         global client
-        apiid="5446031306:AAFOe-da_z73M2Q_Z2aWKornqiHd1DC7Lmk"
+        apiid=""
 
         namebot="Flavves- spot bot"
         username="flavvesspotbot"
@@ -219,7 +219,7 @@ def spotthread():
        
 def admin():
         global client
-        apiid="5447989728:AAEzey8qgU0WVO2srrlDXli5augz1rPMdgw"
+        apiid=""
 
         namebot="flavvesadmin"
         username="flavvesadminbot"
@@ -311,7 +311,7 @@ def admin():
 
 def futurebinance():
         global client
-        apiid="5423324309:AAGH2qxMwPypwGuGifmASoWn_6oZwIVEcKk"
+        apiid=""
 
         namebot="Flavves- future bot"
         username="flavvesfuturebot"
@@ -538,8 +538,8 @@ def grafiktelegram():
                     else:
                         sembolual=gelen_mesaj.split("/f ")[1].upper()
                         
-                    api_key="sz5J1OLyEnF2HQ2fpXnijHh0Sz8huYFPty4pv1REl4pyolJmSm8n96KQD5yrsl4t"
-                    api_secret="VmfhyTYIlsREYNiXhuYgOlqIlx0a3K5NNPGvOo0hWD2ZotOagS7QsKfkQmrAkNUr"
+                    api_key=""
+                    api_secret=""
                     client = Client(api_key, api_secret)
                     tickers = client.get_ticker()
                     currentprices=client.get_symbol_ticker(symbol=sembolual)["price"]
